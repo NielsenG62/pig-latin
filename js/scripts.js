@@ -11,7 +11,7 @@ function pigLatin(text) {
       return text.concat("way");
     } else {
       for (let x = 0; x < textArray.length; x++) {
-        if (textArray[x] === vowel[i]) {
+        if (vowel[i] === textArray[x]) {
           debugger;
           let untilVowel = text.slice(0, [x]);
           return text.slice(x).concat(untilVowel);
